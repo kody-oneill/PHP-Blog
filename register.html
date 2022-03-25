@@ -1,0 +1,42 @@
+<!-- Registration form to add account info to database so you can post, edit, and delete content 
+//HTML for formating and visual
+//Kody O'Neill
+//Version 1.5
+//Bloging website-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+article { 
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+article * { grid-column: 2/3;}
+
+</style>
+</head>
+<body>
+<h1>Register</h1><br><br>
+<article>
+<p>
+<form action="registerHandler.php" method="POST">
+  <label for="email">Email Address:</label>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="uname">User name:</label>
+  <input type="text" id="uname" name="uname"><br><br>
+  <label for="pword">Password:</label>
+  <input type="text" id="pword" name="pword"><br><br>
+  <label for="pwordconfirm">Confirm Password:</label>
+  <input type="text" id="pwordconfirm" name="pwordconfirm"><br><br>
+  <input type="submit" value="Submit"><br><br>
+</form>
+<a href="index.php">Main Menu</a>
+</p>
+</article>
+</body>
+</html>

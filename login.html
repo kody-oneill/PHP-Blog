@@ -1,0 +1,38 @@
+
+<!--  Standard log in form to be passed onto the loginHandler
+//HTML for formating and visual
+//Kody O'Neill
+//Version 1.5
+//Bloging website -->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+
+article { 
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+article * { grid-column: 2/3;}
+
+</style>
+</head>
+<body>
+<h1>Kody's Blog</h1><br><br>
+<article>
+<p></p>
+<form action="loginHandler.php" method="POST">
+  <label for="username">User Name:</label>
+  <input type="text" id="username" name="username"><br><br>
+  <label for="password">Password:</label>
+  <input type="text" id="password" name="password"><br><br>
+  <input type="submit" value="Sign in"><br><br>
+</form>
+<a href="index.php">Main Menu</a>
+<p></p>
+</article>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* This is the syle sheet for the html and PHP forms to make them look nice and uniform //HTML for formating and visual
+//Kody O'Neill
+//Version 1.5
+//Bloging website*/
+
+body {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+h2 {
+	text-align: center;
+}
+p {
+  background-color: grey;
+  text-align: center;
+  color: black;
+  border: 2px solid grey;
+  padding: 30px;
+}
+
+p2 {
+	text-align: center;
+}
